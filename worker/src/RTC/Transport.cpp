@@ -2526,7 +2526,7 @@ namespace RTC
 			if(this->tccClient){
 				this->tccClient->SetDownlinkCapacity(capacity_feedback);
 			}else{
-				MS_DUMP("Yaxiong: No Client CC", );
+				MS_DUMP("Yaxiong: No Client CC");
 			}
 		}
 		this->listener->OnTransportProducerRtpPacketReceived(this, producer, packet);
